@@ -15,6 +15,8 @@ using namespace std;
 int main()
 {
 	cout << "\nHello Craig!\n\n";
-	system("PAUSE");// Apparently bad code.
+	// A better way to do it?
+	cout << "Press the \"ANY\" key to continue...";
+	cin.get();
 	return 0;
 }
